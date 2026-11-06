@@ -19,6 +19,8 @@
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}">
+  <script defer src="{{ "/assets/js/email-copy.js" | relative_url }}"></script>
 </head>
 
 <body>
@@ -59,5 +61,6 @@
     {% endif %}
   </div>
   {% include footer.html %}
+  <div id="email-toast" role="status" aria-live="polite" aria-atomic="true"></div>
 </body>
 </html>

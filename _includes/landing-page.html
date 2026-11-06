@@ -11,7 +11,7 @@
     </h1>
     <div class="landing-icons">
       {% if site.email != null %}
-        <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
+        <button type="button" class="copy-email social-link email" aria-label="Copy email address" title="Copy email address" data-email="{{ site.email | escape }}">
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
           </svg>
@@ -20,8 +20,8 @@
               <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#envelope" | prepend: site.baseurl }}"></use>
             </svg>
           </div>
-          <span class="label">E-Mail</span>
-        </a>
+          <span class="label">Copy email</span>
+        </button>
       {% endif %}
 
       {% if site.github_username != null %}

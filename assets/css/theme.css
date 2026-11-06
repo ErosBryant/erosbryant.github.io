@@ -1,0 +1,58 @@
+/* White and blue theme, loaded after the original theme and vendor styles. */
+:root { color-scheme: light; --blue: #2563eb; --blue-dark: #1746a2; --ink: #24364b; --muted: #53667e; --line: #dce7f5; --soft: #f3f7fd; }
+html, body { background: #fff; color: var(--ink); }
+body { margin: 0; }
+a { color: var(--blue); }
+a:hover, a:focus { color: var(--blue-dark); }
+h1, h2, h3 { color: #153c75; line-height: 1.35; }
+p, .timeline-wrapper .desc, .project-desc { line-height: 1.75; }
+.highlight-title { color: var(--blue); text-shadow: none; }
+.highlight-link { color: var(--blue); box-shadow: inset 0 -2px 0 #b7cffb; border-radius: 3px; }
+.highlight-link:hover, .highlight-link:focus { color: #fff; background: var(--blue); box-shadow: none; }
+#landing { background: #fff; color: var(--ink); position: relative; margin: 0; padding: 0; min-height: 32rem; }
+.landing-title { z-index: 1; }
+.landing-title h1 { line-height: 1.35; }
+.landing-icons { position: relative; z-index: 1; gap: .5rem; }
+.landing-icons .social-link, .contact-icons .social-link { color: var(--blue); border-radius: 50%; }
+.landing-icons .social-link .circle, .landing-icons .social-link:hover .circle { animation: none; stroke: #90b5f4; stroke-width: 5px; stroke-dasharray: 510; fill: #eff6ff; }
+.landing-icons .social-link:hover .circle { stroke: var(--blue); fill: #dbeafe; }
+.landing-icons .social-link .social-svg, .landing-icons .social-link:hover .social-svg,
+.contact-icons .social-link .social-svg, .contact-icons .social-link:hover .social-svg { fill: var(--blue); }
+.landing-icons .social-link .label { font-size: .8rem; line-height: 1.2; }
+.social-link { display: inline-block; }
+button.social-link { padding: 0; border: 0; background: transparent; font: inherit; cursor: pointer; appearance: none; }
+button.social-link:disabled { cursor: progress; }
+button.social-link svg { display: block; width: 100%; height: 100%; }
+.social-link:focus-visible, a:focus-visible { outline: 3px solid var(--blue); outline-offset: 5px; }
+.contact-icons .social-link { background: #eff6ff; }
+.contact-icons .social-link:hover { animation: none; background: #dbeafe; }
+.layout .card { background: #fff; border: 1px solid var(--line); border-radius: 1.5rem; }
+.neumorphism-card-big { box-shadow: 0 12px 40px rgba(30, 76, 140, .07); }
+.neumorphism-card { background: var(--soft); box-shadow: none; border: 1px solid var(--line); }
+.neumorphism-button { background: #eff6ff; box-shadow: none; border: 1px solid #c4d8f8; }
+.timeline-wrapper .flag, .timeline-wrapper .time, .timeline-wrapper .desc { background: var(--soft); }
+.timeline-wrapper .flag { line-height: 1.65; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.timeline-wrapper .time-wrapper { color: var(--muted); line-height: 1.5; }
+.timeline-wrapper .timeline { isolation: isolate; }
+.timeline-wrapper .timeline:before { background: #c4d8f8; }
+.timeline-wrapper .hexagon { background: var(--blue); }
+.timeline-wrapper .hexagon:before { border-bottom-color: var(--blue); }
+.timeline-wrapper .hexagon:after { border-top-color: var(--blue); }
+.timeline-wrapper .flag span:after { color: var(--blue); }
+.project { background: var(--soft); }
+.project-stars-forks { fill: var(--blue); }
+.tag { background: #eaf2ff; color: var(--blue-dark); }
+.publication-list { padding-left: 1.5rem; }
+.publication-list li::marker { color: var(--blue); font-weight: 600; }
+.publication-list li > strong:first-child { color: #153c75; }
+.footer, .footer a:hover, .footer a:focus { background: #fff; color: var(--muted); }
+.footer { border-top: 1px solid var(--line); }
+.footer a { color: var(--blue); }
+#preloader { background: #fff; }
+#preloader .load hr { background: #bfd5fc; }
+#preloader .load :nth-child(2), #preloader .load :last-child { background: var(--blue); }
+#skills div { color: var(--blue); }
+#email-toast { position: fixed; left: 50%; bottom: 2rem; transform: translate(-50%, 12px); background: #1746a2; color: #fff; padding: .8rem 1.25rem; border-radius: .75rem; box-shadow: 0 8px 28px rgba(23,70,162,.22); z-index: 2000; opacity: 0; visibility: hidden; transition: opacity .18s, transform .18s; max-width: calc(100vw - 3rem); text-align: center; pointer-events: none; }
+#email-toast.is-visible { opacity: 1; visibility: visible; transform: translate(-50%, 0); }
+@media (max-width: 47.99em) { .layout .card { padding: 1.25rem; } .layout .card .description { text-align: left; } .landing-title h1 { font-size: clamp(1.5rem, 6vw, 2rem); } }
+@media (prefers-reduced-motion: reduce) { #email-toast, .social-link, .highlight-link { transition: none; } }
