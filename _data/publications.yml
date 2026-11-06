@@ -5,12 +5,16 @@
       {
         "venue": "VLDB 2026",
         "title": "Rethinking Learned Index and LSM-tree Integration.",
-        "authors": "Guangxun Zhao, Yongjie Zhu, Charles Jaranilla, Seehwan Yoo, Jongmoo Choi"
+        "authors": "Guangxun Zhao, Yongjie Zhu, Charles Jaranilla, Seehwan Yoo, Jongmoo Choi",
+        "pdf": "https://www.vldb.org/pvldb/vol19/p3034-zhao.pdf",
+        "code": "https://github.com/DKU-StarLab/WildTurkey"
       },
       {
         "venue": "IEEE CCGrid 2026",
         "title": "ARC: Adaptive Resource Coordination for Write Stall Mitigation in LSM-Tree.",
-        "authors": "Guangxun Zhao, Yongjie Zhu, Suhwan Shin, Seehwan Yoo, Jongmoo Choi"
+        "authors": "Guangxun Zhao, Yongjie Zhu, Suhwan Shin, Seehwan Yoo, Jongmoo Choi",
+        "paper_url": "https://doi.org/10.1109/CCGrid68966.2026.00063",
+        "code": "https://github.com/ErosBryant/ARC"
       },
       {
         "venue": "IEEE BigComp 2024",
