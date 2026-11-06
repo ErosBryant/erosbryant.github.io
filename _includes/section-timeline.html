@@ -11,7 +11,7 @@
         <p class="academic-date">{{ entry.date | escape }}</p>
         <div class="academic-content">
           <h3>{{ entry.title | escape }}</h3>
-          <p class="academic-organization"><a href="{{ entry.url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.organization | escape }}</a></p>
+          <p class="academic-organization">{% if entry.url and entry.url != "" %}<a href="{{ entry.url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.organization | escape }}</a>{% else %}{{ entry.organization | escape }}{% endif %}</p>
           {% if entry.location %}<p class="academic-location">{{ entry.location | escape }}</p>{% endif %}
           {% if entry.scholarship %}<p class="academic-scholarship">{{ entry.scholarship | escape }}</p>{% endif %}
           {% if entry.advisors %}<p class="academic-advisors"><strong>Advisors:</strong> {{ entry.advisors | escape }}</p>{% endif %}
