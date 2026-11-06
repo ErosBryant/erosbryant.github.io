@@ -19,12 +19,14 @@
       {
         "venue": "IEEE BigComp 2024",
         "title": "ThanosKV: A Holistic Approach to Utilize NVM for LSM-tree based Key-Value Stores.",
-        "authors": "Guangxun Zhao, Hojin Shin, Seehwan Yoo, Seongje Cho, Jongmoo Choi"
+        "authors": "Guangxun Zhao, Hojin Shin, Seehwan Yoo, Seongje Cho, Jongmoo Choi",
+        "paper_url": "https://doi.org/10.1109/BigComp60711.2024.00031"
       },
       {
         "venue": "ACM RACS 2024",
         "title": "TodoroKV: Tiered Storage Distribution and Refinement for KV Separation in LSM-tree.",
-        "authors": "Charles Jaranilla, Guangxun Zhao, Seehwan Yoo, Seongje Cho, Jongmoo Choi"
+        "authors": "Charles Jaranilla, Guangxun Zhao, Seehwan Yoo, Seongje Cho, Jongmoo Choi",
+        "paper_url": "https://doi.org/10.1145/3649601.3698731"
       }
     ]
   },
@@ -34,7 +36,9 @@
       {
         "venue": "Electronics (MDPI) 2025",
         "title": "A Framework for Integrating Log-Structured Merge-Trees and Key–Value Separation in Tiered Storage.",
-        "authors": "Charles Jaranilla, Guangxun Zhao, Gunhee Choi, Sohyun Park, Jongmoo Choi"
+        "authors": "Charles Jaranilla, Guangxun Zhao, Gunhee Choi, Sohyun Park, Jongmoo Choi",
+        "paper_url": "https://www.mdpi.com/2079-9292/14/3/564",
+        "pdf": "https://www.mdpi.com/2079-9292/14/3/564/pdf"
       }
     ]
   },
