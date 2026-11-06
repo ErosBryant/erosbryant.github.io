@@ -7,9 +7,10 @@
   <li style="margin-bottom: 1.5rem; line-height: 1.6; overflow-wrap: anywhere;">
     <strong>[{{ paper.venue | escape }}] {{ paper.title | escape }}</strong><br>
     {{ paper.authors | escape | replace: "Guangxun Zhao", "<strong>Guangxun Zhao</strong>" }}
-    {% if paper.pdf or paper.code %}
+    {% if paper.pdf or paper.paper_url or paper.code %}
     <div style="margin-top: 0.4rem; display: flex; flex-wrap: wrap; gap: 1rem;">
-      {% if paper.pdf %}<a class="highlight-link" href="{{ paper.pdf | relative_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="PDF: {{ paper.title | escape }}">PDF</a>{% endif %}
+      {% if paper.pdf %}<a class="highlight-link" href="{{ paper.pdf | escape }}" target="_blank" rel="noopener noreferrer" aria-label="PDF: {{ paper.title | escape }}">PDF</a>{% endif %}
+      {% if paper.paper_url %}<a class="highlight-link" href="{{ paper.paper_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Paper: {{ paper.title | escape }}">Paper</a>{% endif %}
       {% if paper.code %}<a class="highlight-link" href="{{ paper.code | escape }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub code: {{ paper.title | escape }}">GitHub Code</a>{% endif %}
     </div>
     {% endif %}
