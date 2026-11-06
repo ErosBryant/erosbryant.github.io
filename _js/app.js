@@ -8,7 +8,7 @@ $(document).ready(function() {
   });
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS.load('landing', 'assets/particles.json?v=blue-20261106', function() {});
+  particlesJS.load('landing', 'assets/particles.json?v=red-20261106', function() {});
 
   // Typing Text
   var element = document.getElementById('txt-rotate');

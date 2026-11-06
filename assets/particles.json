@@ -9,8 +9,7 @@
     },
     "color": {
       "value": [
-        "#2563eb",
-        "#93b4ed"
+        "#dc052d"
       ]
     },
     "shape": {
@@ -24,7 +23,7 @@
       }
     },
     "opacity": {
-      "value": 0.25,
+      "value": 0.7,
       "random": true,
       "anim": {
         "enable": false,

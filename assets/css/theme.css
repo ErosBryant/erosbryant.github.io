@@ -49,7 +49,7 @@ button.social-link svg { display: block; width: 100%; height: 100%; }
 .footer { border-top: 1px solid var(--line); }
 .footer a { color: var(--blue); }
 #preloader { background: #fff; }
-#preloader .load hr { background: #bfd5fc; }
+#preloader .load hr { background: #dc052d; }
 #preloader .load :nth-child(2), #preloader .load :last-child { background: var(--blue); }
 #skills div { color: var(--blue); }
 #email-toast { position: fixed; left: 50%; bottom: 2rem; transform: translate(-50%, 12px); background: #1746a2; color: #fff; padding: .8rem 1.25rem; border-radius: .75rem; box-shadow: 0 8px 28px rgba(23,70,162,.22); z-index: 2000; opacity: 0; visibility: hidden; transition: opacity .18s, transform .18s; max-width: calc(100vw - 3rem); text-align: center; pointer-events: none; }
