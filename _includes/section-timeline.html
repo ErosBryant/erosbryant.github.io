@@ -1,66 +1,30 @@
-<h1 class="title">{{site.timeline_title}}</h1>
-{% if site.cv_download_link != "" and site.cv_download_link != nil %}
-<p class="subtitle"><a class="highlight-link" href="{{site.cv_download_link}}" target="_blank" rel="noreferrer">Curriculum vitae</a></p>
-{% endif %}
-
-<div class="timeline-wrapper">
-  <ul class="timeline">
-    {% for event in site.data.timeline %}
-      {% if event.timeline-side == 'left' %}
-        <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-right">
-                <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
-                  <span>{{event.title}}</span>
-                </a>
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-right">
-                <span class="time neumorphism-card">{{event.date}}</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-right">
-              {{event.subtitle}}
-              {% if event.tags %}
-                <div class="tag-wrapper">
-                  {% for tag in event.tags %}
-                    <span class="tag neumorphism-card">{{tag.tag}}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-          </div>
-        </li>
-      {% endif %}
-
-      {% if event.timeline-side == 'right' %}
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <span class="hexagon"></span>
-              <span class="flag neumorphism-button" data-aos="zoom-in-left">
-                <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
-                  <span>{{event.title}}</span>
-                </a>
-              </span>
-              <span class="time-wrapper" data-aos="zoom-in-left">
-                <span class="time neumorphism-card">{{event.date}}</span>
-              </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-left">
-              {{event.subtitle}}
-              {% if event.tags %}
-                <div class="tag-wrapper">
-                  {% for tag in event.tags %}
-                    <span class="tag neumorphism-card">{{tag.tag}}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-          </div>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+<div class="academic-background">
+  <h1 class="title">{{site.timeline_title}}</h1>
+  {% if site.cv_download_link != "" and site.cv_download_link != nil %}
+  <p><a class="highlight-link" href="{{site.cv_download_link}}" target="_blank" rel="noreferrer">Curriculum vitae</a></p>
+  {% endif %}
+  {% for group in site.data.timeline %}
+  <section class="academic-group" aria-labelledby="academic-group-{{ forloop.index }}">
+    <h2 id="academic-group-{{ forloop.index }}">{{ group.category | escape }}</h2>
+    <ol class="academic-list">
+      {% for entry in group.entries %}
+      <li class="academic-entry">
+        <p class="academic-date">{{ entry.date | escape }}</p>
+        <div class="academic-content">
+          <h3>{{ entry.title | escape }}</h3>
+          <p class="academic-organization"><a href="{{ entry.url | escape }}" target="_blank" rel="noopener noreferrer">{{ entry.organization | escape }}</a></p>
+          {% if entry.location %}<p class="academic-location">{{ entry.location | escape }}</p>{% endif %}
+          {% if entry.scholarship %}<p class="academic-scholarship">{{ entry.scholarship | escape }}</p>{% endif %}
+          {% if entry.advisors %}<p class="academic-advisors"><strong>Advisors:</strong> {{ entry.advisors | escape }}</p>{% endif %}
+          {% if entry.details %}
+          <ul class="academic-details">
+            {% for detail in entry.details %}<li>{{ detail | escape }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
 </div>

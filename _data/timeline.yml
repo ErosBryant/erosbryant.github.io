@@ -1,37 +1,58 @@
 [
   {
-    "title": "Dankook University",
-    "title-url": "https://www.dankook.ac.kr/web/kor/home",
-    "date": "Sep 2024 – Present",
-    "subtitle": "PhD in AI-based Convergence. Yongin, Korea. Full Tuition Scholarship.",
-    "timeline-side": "left"
+    "category": "Education",
+    "entries": [
+      {
+        "title": "PhD in AI-based Convergence",
+        "organization": "Dankook University",
+        "url": "https://www.dankook.ac.kr/web/kor/home",
+        "location": "Yongin, Korea",
+        "date": "Sep 2024 – Present",
+        "scholarship": "Full Tuition Scholarship"
+      },
+      {
+        "title": "MS in AI-based Convergence",
+        "organization": "Dankook University",
+        "url": "https://www.dankook.ac.kr/web/kor/home",
+        "location": "Yongin, Korea",
+        "date": "Mar 2023 – Aug 2024",
+        "scholarship": "Full Tuition Scholarship"
+      },
+      {
+        "title": "BS in Software Science",
+        "organization": "Dankook University",
+        "url": "https://www.dankook.ac.kr/web/kor/home",
+        "location": "Yongin, Korea",
+        "date": "Mar 2019 – Feb 2023",
+        "scholarship": "50% Tuition Scholarship"
+      }
+    ]
   },
   {
-    "title": "Dankook University",
-    "title-url": "https://www.dankook.ac.kr/web/kor/home",
-    "date": "Mar 2023 – Aug 2024",
-    "subtitle": "MS in AI-based Convergence. Yongin, Korea. Full Tuition Scholarship.",
-    "timeline-side": "right"
-  },
-  {
-    "title": "Dankook University",
-    "title-url": "https://www.dankook.ac.kr/web/kor/home",
-    "date": "Mar 2019 – Feb 2023",
-    "subtitle": "BS in Software Science. Yongin, Korea. 50% Tuition Scholarship.",
-    "timeline-side": "left"
-  },
-  {
-    "title": "System Software Laboratory",
-    "title-url": "https://www.dankook.ac.kr/web/kor/home",
-    "date": "Jul 2021 – Present",
-    "subtitle": "Student Researcher, Dankook University. Advisors: Prof. Seehwan Yoo and Prof. Jongmoo Choi. Research on key-value stores (SkipList, KV cache, compaction, SST files, Bloom filters), the Linux kernel (CPU scheduler, memory allocator, block I/O stack), and learned and traditional index structures.",
-    "timeline-side": "right"
-  },
-  {
-    "title": "Open Source SW Analysis (Bigdata)",
-    "title-url": "https://www.dankook.ac.kr/web/kor/home",
-    "date": "Spring 2025",
-    "subtitle": "Teaching Assistant, Dankook University. Guided Skip List and B+ Tree implementation, lab sessions, and code review; assisted with assignment and exam design, proctoring, and grading.",
-    "timeline-side": "left"
+    "category": "Research & Teaching Experience",
+    "entries": [
+      {
+        "title": "Student Researcher",
+        "organization": "System Software Laboratory, Dankook University",
+        "url": "https://www.dankook.ac.kr/web/kor/home",
+        "date": "Jul 2021 – Present",
+        "advisors": "Prof. Seehwan Yoo and Prof. Jongmoo Choi",
+        "details": [
+          "Key-value stores: SkipList, KV cache, compaction, SST files, and Bloom filters.",
+          "Linux kernel: CPU scheduler, memory allocator, and block I/O stack.",
+          "Learned and traditional index structures."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
+        "organization": "Open Source SW Analysis (Bigdata), Dankook University",
+        "url": "https://www.dankook.ac.kr/web/kor/home",
+        "date": "Spring 2025",
+        "details": [
+          "Guided Skip List and B+ Tree implementation, lab sessions, and code review.",
+          "Assisted with assignment and exam design, proctoring, and grading."
+        ]
+      }
+    ]
   }
 ]

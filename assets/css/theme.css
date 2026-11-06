@@ -74,3 +74,23 @@ button.social-link svg { display: block; width: 100%; height: 100%; }
 .certification-list li { padding: 1rem 0; line-height: 1.65; }
 .certification-list span { display: block; margin-top: .35rem; }
 @media (min-width: 62em) { .professional-details { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; } .layout .professional-details .card { padding: 2rem; } }
+
+/* Read education and experience in a single, consistent vertical direction. */
+.academic-background { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 1rem; line-height: 1.75; color: #24364b; }
+.academic-group { margin-top: 2.5rem; }
+.academic-group > h2 { font-size: 1.35rem; margin: 0 0 1.25rem; padding-bottom: .75rem; border-bottom: 2px solid #dce7f5; }
+.academic-list { list-style: none; margin: 0; padding: 0; }
+.academic-entry { display: grid; grid-template-columns: 12rem minmax(0, 1fr); column-gap: 2rem; padding: 1.5rem 0; }
+.academic-entry + .academic-entry { border-top: 1px solid var(--line); }
+.academic-entry:first-child { padding-top: .25rem; }
+.academic-entry .academic-date { margin: .15rem 0 0; font-size: 1rem; font-weight: 600; color: #1746a2; line-height: 1.75; }
+.academic-content { min-width: 0; }
+.academic-content h3 { font-size: 1.2rem; font-weight: 650; margin: 0 0 .35rem; line-height: 1.5; color: #153c75; }
+.academic-content p { margin: .25rem 0; line-height: 1.75; }
+.academic-organization { font-weight: 500; }
+.academic-location { color: var(--muted); }
+.academic-scholarship { font-size: .95rem; color: #1746a2; }
+.academic-advisors { padding-top: .5rem; }
+.academic-details { margin: .75rem 0 0; padding-left: 1.25rem; }
+.academic-details li { padding-left: .2rem; margin: .35rem 0; line-height: 1.75; }
+@media (max-width: 47.99em) { .academic-entry { grid-template-columns: minmax(0, 1fr); row-gap: .6rem; padding: 1.4rem 0; } .academic-group { margin-top: 2rem; } .academic-entry .academic-date { font-size: .95rem; } }
