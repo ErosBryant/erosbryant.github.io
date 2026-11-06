@@ -34,7 +34,7 @@
       {
         "title": "Student Researcher",
         "organization": "System Software Laboratory, Dankook University",
-        "url": "https://www.dankook.ac.kr/web/kor/home",
+        "url": "https://sslab.dankook.ac.kr/",
         "date": "Jul 2021 – Present",
         "advisors": "Prof. Seehwan Yoo and Prof. Jongmoo Choi",
         "details": [
@@ -46,7 +46,6 @@
       {
         "title": "Teaching Assistant",
         "organization": "Open Source SW Analysis (Bigdata), Dankook University",
-        "url": "https://www.dankook.ac.kr/web/kor/home",
         "date": "Spring 2025",
         "details": [
           "Guided Skip List and B+ Tree implementation, lab sessions, and code review.",
