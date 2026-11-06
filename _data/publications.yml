@@ -1,0 +1,115 @@
+[
+  {
+    "category": "International Conferences",
+    "papers": [
+      {
+        "venue": "VLDB 2026",
+        "title": "Rethinking Learned Index and LSM-tree Integration.",
+        "authors": "Guangxun Zhao, Yongjie Zhu, Charles Jaranilla, Seehwan Yoo, Jongmoo Choi"
+      },
+      {
+        "venue": "IEEE CCGrid 2026",
+        "title": "ARC: Adaptive Resource Coordination for Write Stall Mitigation in LSM-Tree.",
+        "authors": "Guangxun Zhao, Yongjie Zhu, Suhwan Shin, Seehwan Yoo, Jongmoo Choi"
+      },
+      {
+        "venue": "IEEE BigComp 2024",
+        "title": "ThanosKV: A Holistic Approach to Utilize NVM for LSM-tree based Key-Value Stores.",
+        "authors": "Guangxun Zhao, Hojin Shin, Seehwan Yoo, Seongje Cho, Jongmoo Choi"
+      },
+      {
+        "venue": "ACM RACS 2024",
+        "title": "TodoroKV: Tiered Storage Distribution and Refinement for KV Separation in LSM-tree.",
+        "authors": "Charles Jaranilla, Guangxun Zhao, Seehwan Yoo, Seongje Cho, Jongmoo Choi"
+      }
+    ]
+  },
+  {
+    "category": "International Journals",
+    "papers": [
+      {
+        "venue": "Electronics (MDPI) 2025",
+        "title": "A Framework for Integrating Log-Structured Merge-Trees and Key–Value Separation in Tiered Storage.",
+        "authors": "Charles Jaranilla, Guangxun Zhao, Gunhee Choi, Sohyun Park, Jongmoo Choi"
+      }
+    ]
+  },
+  {
+    "category": "Domestic Conferences",
+    "papers": [
+      {
+        "venue": "KCC 2025",
+        "title": "Rethinking SSTable Size: A Level-Sensitive Approach to LSM-tree Optimization.",
+        "authors": "Guangxun Zhao, Yongjie Zhu, Yongmin Lee, Dayeon Wee, Yeongyu Choi, Jongmoo Choi",
+        "award": "Best Presentation Paper Award"
+      },
+      {
+        "venue": "KCC 2025",
+        "title": "Predictive Models for KVS Performance Analysis and Tuning",
+        "authors": "Charles Jaranilla, Guangxun Zhao, Yeongyu Choi, Yongjie Zhu, Jongmoo Choi",
+        "award": "Best Paper Award"
+      },
+      {
+        "venue": "KCC 2025",
+        "title": "From Distance to Distribution: A Probabilistic Cluster Selection Method for High-Dimensional Vector Search",
+        "authors": "Yeongyu Choi, Guangxun Zhao, Charles Jaranilla, Yongjie Zhu, Yongmin Lee, Jongmoo Choi",
+        "award": "Best Paper Award"
+      },
+      {
+        "venue": "KCC 2024",
+        "title": "Quantitative Analysis of Learned Index in Bourbon with Larger SSTable Mechanism",
+        "authors": "Guangxun Zhao, Hojin Shin, Seehwan Yoo, Jongmoo Choi"
+      },
+      {
+        "venue": "KCC 2024",
+        "title": "Performance Analysis of Multi-Level Key-Value Separation in BlobDB",
+        "authors": "SuGie Park, Guangxun Zhao, SoungHyoun Lee, JongMoo Choi"
+      },
+      {
+        "venue": "KCC 2024",
+        "title": "Analysis of Performance according to Blob File Size of BlobDB based on RocksDB",
+        "authors": "Min Seong Kim, Guangxun Zhao, Gunhee Choi, Jongmoo Choi, SeeHwan Yoo"
+      },
+      {
+        "venue": "KCC 2024",
+        "title": "Balance-SkipList: Balanced SkipList Structure Optimization through the Use of PrevNode Mechanism",
+        "authors": "Yeongyu Choi, Guangxun Zhao, Hojin Shin, Seehwan Yoo, Jongmoo Choi"
+      },
+      {
+        "venue": "KSC 2023",
+        "title": "In-depth Analysis of Write Stall in LSM-Tree based Key-Value Store",
+        "authors": "Guangxun Zhao, Hojin Shin, Yongjie Zhu, Jongmoo Choi"
+      },
+      {
+        "venue": "KSC 2022",
+        "title": "Read performance analysis according to Compaction Trigger",
+        "authors": "Sangwoo Kang, Guangxun Zhao, Min-guk Choi, Seehwan Yoo, Jongmoo Choi"
+      },
+      {
+        "venue": "KCC 2022",
+        "title": "Retention Error Modeling using FEMU SSD Emulator",
+        "authors": "Jeoungwon Lee, Guangxun Zhao, Jongmoo Choi"
+      },
+      {
+        "venue": "KSC 2021",
+        "title": "Performance Analysis of BlobDB with Key-Value Separation Technique",
+        "authors": "Jeoungwon Lee, Guangxun Zhao, Jongmoo Choi"
+      }
+    ]
+  },
+  {
+    "category": "Domestic Journals",
+    "papers": [
+      {
+        "venue": "정보과학회지 2026",
+        "title": "LSM-tree 최적화를 위한 레벨별 SSTable 동적 크기 결정 기법",
+        "authors": "Guangxun Zhao, JongMoo Choi"
+      },
+      {
+        "venue": "정보과학회지 2025",
+        "title": "학습된 인덱스가 키-밸류 스토어에 미치는 영향 분석",
+        "authors": "Guangxun Zhao, JongMoo Choi"
+      }
+    ]
+  }
+]

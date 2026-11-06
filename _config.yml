@@ -2,19 +2,19 @@
 
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: Zhao's +_+
+title: Guangxun Zhao | Storage Systems Researcher
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Jekyll
+description: Guangxun Zhao, PhD student at Dankook University researching LSM-tree key-value stores, learned indexes, and storage systems.
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: "/"
+baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
 username: Guangxun Zhao
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Datastorage researcher
+typing_text: Storage Systems Researcher
 # email: Your E-Mail address for the email button.
 email: guangxun0621@gmail.com
 # For every social button you want to display, set your username or userid
@@ -42,7 +42,7 @@ about_me_title: About Me
 # > setting this to false, will omit the Skills section
 show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
-skills_title: Skills
+skills_title: Research Interests & Skills
 
 # TIMELINE SECTION
 # show_timeline_card:
@@ -53,7 +53,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: ""
 
 # PROJECTS SECTION
 # show_projects_card:
@@ -65,7 +65,7 @@ show_projects_card: true
 # > setting this to false, will omit your listed projects
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Projects
+projects_title: Publications
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
@@ -81,12 +81,12 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: If you have any suggestions or to contact me, just send me an email! I responded 100%. 
+contact_description: For research discussions and collaboration, please contact me by email.
 
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+repository: ErosBryant/erosbryant.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
