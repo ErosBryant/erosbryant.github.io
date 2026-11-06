@@ -19,7 +19,7 @@
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}?v=red-20261106"></script>
-  <link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}?v=3">
+  <link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}?v=4">
   <script defer src="{{ "/assets/js/email-copy.js" | relative_url }}"></script>
 </head>
 
@@ -53,6 +53,9 @@
       <section class="card neumorphism-card-big">
         {% include section-projects.html %}
       </section>
+    {% endif %}
+    {% if site.show_timeline_card %}
+      {% include section-background.html %}
     {% endif %}
     {%if site.show_contact_card %}
     <section class="card neumorphism-card-big">
