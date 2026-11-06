@@ -1,11 +1,10 @@
-<div class="academic-background">
-  <h1 class="title">{{site.timeline_title}}</h1>
+<div class="academic-background academic-columns">
   {% if site.cv_download_link != "" and site.cv_download_link != nil %}
   <p><a class="highlight-link" href="{{site.cv_download_link}}" target="_blank" rel="noreferrer">Curriculum vitae</a></p>
   {% endif %}
   {% for group in site.data.timeline %}
-  <section class="academic-group" aria-labelledby="academic-group-{{ forloop.index }}">
-    <h2 id="academic-group-{{ forloop.index }}">{{ group.category | escape }}</h2>
+  <section class="card neumorphism-card-big academic-group" aria-labelledby="academic-group-{{ forloop.index }}">
+    <h2 class="title" id="academic-group-{{ forloop.index }}">{{ group.category | escape }}</h2>
     <ol class="academic-list">
       {% for entry in group.entries %}
       <li class="academic-entry">
