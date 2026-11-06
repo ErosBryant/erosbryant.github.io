@@ -1,0 +1,14 @@
+<h1 class="title" id="news-title">News</h1>
+<div class="news-list">
+  {% for item in site.data.news %}
+  <article class="news-entry">
+    <time class="news-date" datetime="{{ item.date | escape }}">{{ item.display_date | escape }}</time>
+    <div class="news-content">
+      <p class="news-source">{{ item.source | escape }}</p>
+      <h2>{{ item.title | escape }}</h2>
+      <p>{{ item.summary | escape }}</p>
+      <a class="highlight-link" href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">Read university news (Korean) <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+  {% endfor %}
+</div>

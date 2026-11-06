@@ -19,7 +19,7 @@
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}?v=red-20261106"></script>
-  <link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}?v=5">
+  <link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}?v=6">
   <script defer src="{{ "/assets/js/email-copy.js" | relative_url }}"></script>
 </head>
 
@@ -37,6 +37,11 @@
     {%if site.show_aboutme_card %}
       <section class="card neumorphism-card-big">
         {% include section-aboutme.html %}
+      </section>
+    {% endif %}
+    {% if site.data.news.size > 0 %}
+      <section class="card neumorphism-card-big" aria-labelledby="news-title">
+        {% include section-news.html %}
       </section>
     {% endif %}
     {%if site.show_skills_card %}

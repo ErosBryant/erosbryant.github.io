@@ -94,3 +94,13 @@ button.social-link svg { display: block; width: 100%; height: 100%; }
 .academic-details { margin: .75rem 0 0; padding-left: 1.25rem; }
 .academic-details li { padding-left: .2rem; margin: .35rem 0; line-height: 1.75; }
 @media (max-width: 47.99em) { .academic-entry { grid-template-columns: minmax(0, 1fr); row-gap: .6rem; padding: 1.4rem 0; } .academic-group { margin-top: 2rem; } .academic-entry .academic-date { font-size: .95rem; } }
+
+/* University coverage and other research updates. */
+.news-entry { display: grid; grid-template-columns: 12rem minmax(0, 1fr); gap: 1rem 2rem; padding: 1rem 0; text-align: left; }
+.news-date { color: var(--muted); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 1rem; line-height: 1.75; padding-top: .15rem; }
+.news-content { min-width: 0; }
+.news-content .news-source { display: inline-block; margin: 0 0 .65rem; padding: .2rem .65rem; border-radius: .4rem; background: #eff6ff; color: #1746a2; font-size: .85rem; font-weight: 600; }
+.news-content h2 { margin: 0 0 .75rem; font-size: 1.35rem; line-height: 1.5; }
+.news-content p { margin: 0 0 1rem; line-height: 1.8; }
+.news-entry + .news-entry { margin-top: 1rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+@media (max-width: 47.99em) { .news-entry { grid-template-columns: minmax(0, 1fr); gap: .75rem; } .news-content h2 { font-size: 1.2rem; } }
